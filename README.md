@@ -20,6 +20,12 @@ scp -r csc309@192.168.58.128:{path in remote} {path to local file}
 scp -r {path to local file} csc309@192.168.58.128:{path in remote}
 ```
 
+### SSH Tunnel to allow browser connection to localhost while running server on VM
+
+```
+ssh -L 8000:127.0.0.1:8000 csc309@192.168.58.128
+```
+
 Even better, use VSCode Remote SSH/Equivalent extension/feature of your IDEs to remotely mount the file
 
 
