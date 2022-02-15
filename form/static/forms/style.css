@@ -1,0 +1,45 @@
+form {
+    color: green;
+}
+
+.chat {
+    max-height: 30vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: black;
+}
+
+.chat .message {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.chat .user {    
+    font-weight: bold;
+}
+
+textarea{
+    height: 10vh;
+}
+
+div.register .error{
+    color:red;
+}
+
+/* 
+div.register  */
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+html{
+    height: 100vh;
+}
+
+

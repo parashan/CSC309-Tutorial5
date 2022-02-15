@@ -1,4 +1,4 @@
-# Tutorial 4 notes
+# Tutorial 4 Plan
 
 ## Working with the VM(Download, ssh, scp)
 
@@ -47,7 +47,11 @@ pip install django
 - You might not be able to call `virtualenv {envname}` directly, instead use `python3 -m virtualenv {envname}`
 
 
+## Assignment feedback (css portion + explaining some html autotester issues)
+
+## More in-depth models, admin view(chat demo)
 
 
+## Google slides reference
 
-
+https://docs.google.com/presentation/d/1XxJL41qaeOQG3Fp2_YyuKv0rdgIcCOmuMsc7ajQFTMw/edit#slide=id.g113293c4b31_0_29

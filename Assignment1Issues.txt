@@ -1,0 +1,51 @@
+HTML Common Issues
+
+test_markus_main.A1MainTest.test_q7_form_submit
+- This test requires that you submit the form with `enctype=multipart/form-data`, and method ="post"
+- This issue can be realized by going into developer tools (firefox) and attempting to check the payload. Without enctype,
+the file will not be added 
+
+test_markus_main.A1MainTest.test_q7_attachment_consent
+- this field has to have the required attribute 
+- This test requires a value to be on the consent checkbox input
+
+test_markus_main.A1MainTest.test_q5_details
+- This test requires open to be an attribute on the details/summary tag
+
+test_markus_main.A1MainTest.test_q7_feedback_email
+- email field has to have the required attribute
+- name="email"
+- You have to copy the text for the label of the email input field as specified on the handout
+
+test_markus_main.A1MainTest.test_q5_text
+- Need to use <s>, <del> for strikthrough
+- <strike> is deprecated
+- some people used style to create the style
+
+Some typos are being accepted for the sake of the first assignment, 
+so please apply for a remark but you need to point out exactly which points you are asking a remark for.
+
+Many remarks have been processed and most people have received marks back for typos, etc.
+
+CSS Issues
+
+Most people actually got split screen working! Nice
+
+
+Using `position: sticky` to keep the header stuck to the top. 
+However on Firefox/Chrome body tags are given an (8?)px margin(user agent stylesheet) so 
+it creates (8?)px space on top/left/right before the page is scrolled.
+
+Roboto font is not imported. @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); needs to be
+at the very top of your page. Not every machine has Roboto so it has to be imported. 
+Also, sans-serif is NOT the same as roboto font.
+
+the list is not centered
+
+No margins on form elements
+
+Let me know about any other issues
+
+
+
+

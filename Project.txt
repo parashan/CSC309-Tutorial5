@@ -1,0 +1,22 @@
+Mentor times
+
+Not alot of slots are booked. Don't hesitate to book one if you think you need help. Even if your whole group can't make it.
+
+
+
+
+
+Interview details
+
+Rubric TBA
+
+Mostly questions that will show us you understand what you wrote
+
+We probably won't ask you anything super specific like "if I change the position from flex to fixed, what would it look like?"
+
+Think of more conceptual questions, design design questions.
+
+Since Phase 1 is more about the front end, we might ask you thinks like "Why did you do it X way instead of Y way?"
+
+We could also ask you about your plans when hooking up your site to the backend how everything would function in general
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial 3</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'forms/style.css' %}">
+    </head>
+    
+    <body>
+        Thanks for entering data {{ user }}!
+        <div>
+            <h1>Important Links</h1>
+            <div>
+                <a href="/forms/chat">
+                    Chat App using function based view
+                </a>
+            </div>
+            <div>
+                <a href="/forms/chat2">
+                    Chat App using form view
+                </a>
+            </div>
+
+        </div>
+        <form class="h-100" action="/forms/logout" method="post">
+            {% csrf_token %}
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="w-25 register d-flex justify-content-between flex-column">
+                    <input class="mt-2" type="submit" value="Logout">                    
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
